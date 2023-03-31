@@ -63,12 +63,14 @@ int write(int k){
 	        if (c == 'e'){
 		    break;
 		} 
-		else if (c == 'i'){
+		else if (c == 't'){
 		    triangle(a - 2);
-            printf("\n");
+            		printf("\n");
 		} 
 		else if (c == 's'){
 		    square(a);
+		    printf("\n");
+		 	
 		}
     	}
         return 0;
